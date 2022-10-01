@@ -1,0 +1,26 @@
+.form-div {
+    background: rgb(234, 234, 234);
+}
+
+.form-head {
+    background: #222;
+    color: #FFF;
+    text-align: center;
+    height: 80px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.form-head  > h1 {
+    font-weight: 500;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-text {
+    color: red;
+    visibility: hidden;
+}

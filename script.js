@@ -46,6 +46,7 @@ function formValidation(){
     if(document.getElementById('termAndCondition').checked == true){
         document.getElementById('termAndConditionError').style.visibility = 'hidden';
     }else {
+        errors++;
         document.getElementById('termAndConditionError').style.visibility = 'visible';
     }
 
